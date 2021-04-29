@@ -60,31 +60,21 @@ Returns data for a single listing
 <br />
 
 ```json
-// 20210429125928
+// 20210429133603
 // http://localhost:3001/listings/1
 
-[
-  {
-    "title": "Panasonic Lumix G7 4K with Kit Lens",
-    "category": "Digital Cameras",
-    "value": "600.0",
-    "zipcode": 23608,
-    "details": "Includes camera, kit lens, 1 battery and sd card",
-    "day_price": "25.0",
-    "created_at": "2021-04-29T16:59:09.594Z",
-    "updated_at": "2021-04-29T16:59:09.594Z",
-    "user": {
-      "id": 1,
-      "email": "test@test.com",
-      "name": null,
-      "age": null,
-      "bio": "",
-      "location": null,
-      "created_at": "2021-04-29T15:37:24.581Z",
-      "updated_at": "2021-04-29T15:37:24.581Z",
-    }
-  }
-]
+{
+  "id": 1,
+  "title": "Panasonic Lumix G7 4K with Kit Lens",
+  "category": "Digital Cameras",
+  "value": "600.0",
+  "zipcode": 23608,
+  "details": "Includes camera, kit lens, 1 battery and sd card",
+  "day_price": "25.0",
+  "created_at": "2021-04-29T16:59:09.594Z",
+  "updated_at": "2021-04-29T16:59:09.594Z",
+  "user_id": 1
+}
 ```
 [Back To The Top](#gearshare-backend)
 
@@ -94,7 +84,7 @@ Returns data for a single listing
 
 MIT License
 
-Copyright (c) [2017] [Brandon Marrero]
+Copyright (c) [2021] [Brandon Marrero]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
