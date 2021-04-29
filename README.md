@@ -38,7 +38,6 @@ Requires Ruby/Ruby on Rails installation
 4. Use the `rails s` command to start your server
 
 #### Current Endpoints
-<br />
 
 ##### GET Current User
 http://localhost:3000/current_user
